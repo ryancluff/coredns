@@ -1,0 +1,7 @@
+. {
+    kubernetes cluster.local in-addr.arpa { 
+        kubeconfig ../.kube/config
+    }
+    k8s_external rcluff.com
+    log
+}
